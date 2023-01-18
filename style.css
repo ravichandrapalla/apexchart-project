@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+  margin: 5rem auto;
+  height: 100vh;
+}
+
+#chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.container {
+  padding: 4rem;
+  margin: auto;
+  height: 70vh;
+}
+.heading {
+  font-weight: bold;
+  text-align: left;
+  color: #e52f2f;
+
+  /*background: rgb(254, 243, 245);*/
+  background: linear-gradient(
+    90deg,
+    rgb(255, 236, 239) 0%,
+    rgb(238, 228, 250) 100%
+  );
+  border-left: 3px solid #ff6868;
+  border-radius: 6px;
+  padding: 12px 6px;
+}
+
+span {
+  color: black;
+}
